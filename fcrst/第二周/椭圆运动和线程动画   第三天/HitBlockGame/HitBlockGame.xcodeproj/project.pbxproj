@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E65F9711B5F8A6900DF3B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E65F9701B5F8A6900DF3B8C /* main.m */; };
+		1E65F9741B5F8A6900DF3B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E65F9731B5F8A6900DF3B8C /* AppDelegate.m */; };
+		1E65F9771B5F8A6900DF3B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E65F9761B5F8A6900DF3B8C /* ViewController.m */; };
+		1E65F97A1B5F8A6900DF3B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E65F9781B5F8A6900DF3B8C /* Main.storyboard */; };
+		1E65F97C1B5F8A6900DF3B8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E65F97B1B5F8A6900DF3B8C /* Images.xcassets */; };
+		1E65F97F1B5F8A6900DF3B8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E65F97D1B5F8A6900DF3B8C /* LaunchScreen.xib */; };
+		1E65F98B1B5F8A6900DF3B8C /* HitBlockGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E65F98A1B5F8A6900DF3B8C /* HitBlockGameTests.m */; };
+		1E65F9961B5F8B1B00DF3B8C /* MyTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E65F9951B5F8B1B00DF3B8C /* MyTouchView.m */; };
+		1E65F9981B5F8D6900DF3B8C /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E65F9971B5F8D6900DF3B8C /* fireball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E65F9851B5F8A6900DF3B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E65F9631B5F8A6900DF3B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E65F96A1B5F8A6900DF3B8C;
+			remoteInfo = HitBlockGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E65F96B1B5F8A6900DF3B8C /* HitBlockGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitBlockGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E65F96F1B5F8A6900DF3B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E65F9701B5F8A6900DF3B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E65F9721B5F8A6900DF3B8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E65F9731B5F8A6900DF3B8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E65F9751B5F8A6900DF3B8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E65F9761B5F8A6900DF3B8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E65F9791B5F8A6900DF3B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E65F97B1B5F8A6900DF3B8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E65F97E1B5F8A6900DF3B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E65F9841B5F8A6900DF3B8C /* HitBlockGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitBlockGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E65F9891B5F8A6900DF3B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E65F98A1B5F8A6900DF3B8C /* HitBlockGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitBlockGameTests.m; sourceTree = "<group>"; };
+		1E65F9941B5F8B1B00DF3B8C /* MyTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTouchView.h; sourceTree = "<group>"; };
+		1E65F9951B5F8B1B00DF3B8C /* MyTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTouchView.m; sourceTree = "<group>"; };
+		1E65F9971B5F8D6900DF3B8C /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E65F9681B5F8A6900DF3B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E65F9811B5F8A6900DF3B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E65F9621B5F8A6900DF3B8C = {
+			isa = PBXGroup;
+			children = (
+				1E65F96D1B5F8A6900DF3B8C /* HitBlockGame */,
+				1E65F9871B5F8A6900DF3B8C /* HitBlockGameTests */,
+				1E65F96C1B5F8A6900DF3B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E65F96C1B5F8A6900DF3B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E65F96B1B5F8A6900DF3B8C /* HitBlockGame.app */,
+				1E65F9841B5F8A6900DF3B8C /* HitBlockGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E65F96D1B5F8A6900DF3B8C /* HitBlockGame */ = {
+			isa = PBXGroup;
+			children = (
+				1E65F9971B5F8D6900DF3B8C /* fireball.png */,
+				1E65F9721B5F8A6900DF3B8C /* AppDelegate.h */,
+				1E65F9731B5F8A6900DF3B8C /* AppDelegate.m */,
+				1E65F9751B5F8A6900DF3B8C /* ViewController.h */,
+				1E65F9761B5F8A6900DF3B8C /* ViewController.m */,
+				1E65F9781B5F8A6900DF3B8C /* Main.storyboard */,
+				1E65F97B1B5F8A6900DF3B8C /* Images.xcassets */,
+				1E65F97D1B5F8A6900DF3B8C /* LaunchScreen.xib */,
+				1E65F96E1B5F8A6900DF3B8C /* Supporting Files */,
+				1E65F9941B5F8B1B00DF3B8C /* MyTouchView.h */,
+				1E65F9951B5F8B1B00DF3B8C /* MyTouchView.m */,
+			);
+			path = HitBlockGame;
+			sourceTree = "<group>";
+		};
+		1E65F96E1B5F8A6900DF3B8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E65F96F1B5F8A6900DF3B8C /* Info.plist */,
+				1E65F9701B5F8A6900DF3B8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E65F9871B5F8A6900DF3B8C /* HitBlockGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E65F98A1B5F8A6900DF3B8C /* HitBlockGameTests.m */,
+				1E65F9881B5F8A6900DF3B8C /* Supporting Files */,
+			);
+			path = HitBlockGameTests;
+			sourceTree = "<group>";
+		};
+		1E65F9881B5F8A6900DF3B8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E65F9891B5F8A6900DF3B8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E65F96A1B5F8A6900DF3B8C /* HitBlockGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E65F98E1B5F8A6900DF3B8C /* Build configuration list for PBXNativeTarget "HitBlockGame" */;
+			buildPhases = (
+				1E65F9671B5F8A6900DF3B8C /* Sources */,
+				1E65F9681B5F8A6900DF3B8C /* Frameworks */,
+				1E65F9691B5F8A6900DF3B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitBlockGame;
+			productName = HitBlockGame;
+			productReference = 1E65F96B1B5F8A6900DF3B8C /* HitBlockGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E65F9831B5F8A6900DF3B8C /* HitBlockGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E65F9911B5F8A6900DF3B8C /* Build configuration list for PBXNativeTarget "HitBlockGameTests" */;
+			buildPhases = (
+				1E65F9801B5F8A6900DF3B8C /* Sources */,
+				1E65F9811B5F8A6900DF3B8C /* Frameworks */,
+				1E65F9821B5F8A6900DF3B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E65F9861B5F8A6900DF3B8C /* PBXTargetDependency */,
+			);
+			name = HitBlockGameTests;
+			productName = HitBlockGameTests;
+			productReference = 1E65F9841B5F8A6900DF3B8C /* HitBlockGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E65F9631B5F8A6900DF3B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "孙 化育";
+				TargetAttributes = {
+					1E65F96A1B5F8A6900DF3B8C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1E65F9831B5F8A6900DF3B8C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1E65F96A1B5F8A6900DF3B8C;
+					};
+				};
+			};
+			buildConfigurationList = 1E65F9661B5F8A6900DF3B8C /* Build configuration list for PBXProject "HitBlockGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E65F9621B5F8A6900DF3B8C;
+			productRefGroup = 1E65F96C1B5F8A6900DF3B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E65F96A1B5F8A6900DF3B8C /* HitBlockGame */,
+				1E65F9831B5F8A6900DF3B8C /* HitBlockGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E65F9691B5F8A6900DF3B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E65F9981B5F8D6900DF3B8C /* fireball.png in Resources */,
+				1E65F97A1B5F8A6900DF3B8C /* Main.storyboard in Resources */,
+				1E65F97F1B5F8A6900DF3B8C /* LaunchScreen.xib in Resources */,
+				1E65F97C1B5F8A6900DF3B8C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E65F9821B5F8A6900DF3B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E65F9671B5F8A6900DF3B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E65F9961B5F8B1B00DF3B8C /* MyTouchView.m in Sources */,
+				1E65F9771B5F8A6900DF3B8C /* ViewController.m in Sources */,
+				1E65F9741B5F8A6900DF3B8C /* AppDelegate.m in Sources */,
+				1E65F9711B5F8A6900DF3B8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E65F9801B5F8A6900DF3B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E65F98B1B5F8A6900DF3B8C /* HitBlockGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E65F9861B5F8A6900DF3B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E65F96A1B5F8A6900DF3B8C /* HitBlockGame */;
+			targetProxy = 1E65F9851B5F8A6900DF3B8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E65F9781B5F8A6900DF3B8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E65F9791B5F8A6900DF3B8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E65F97D1B5F8A6900DF3B8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E65F97E1B5F8A6900DF3B8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E65F98C1B5F8A6900DF3B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E65F98D1B5F8A6900DF3B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E65F98F1B5F8A6900DF3B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HitBlockGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E65F9901B5F8A6900DF3B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HitBlockGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E65F9921B5F8A6900DF3B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HitBlockGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitBlockGame.app/HitBlockGame";
+			};
+			name = Debug;
+		};
+		1E65F9931B5F8A6900DF3B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HitBlockGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitBlockGame.app/HitBlockGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E65F9661B5F8A6900DF3B8C /* Build configuration list for PBXProject "HitBlockGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E65F98C1B5F8A6900DF3B8C /* Debug */,
+				1E65F98D1B5F8A6900DF3B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E65F98E1B5F8A6900DF3B8C /* Build configuration list for PBXNativeTarget "HitBlockGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E65F98F1B5F8A6900DF3B8C /* Debug */,
+				1E65F9901B5F8A6900DF3B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E65F9911B5F8A6900DF3B8C /* Build configuration list for PBXNativeTarget "HitBlockGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E65F9921B5F8A6900DF3B8C /* Debug */,
+				1E65F9931B5F8A6900DF3B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E65F9631B5F8A6900DF3B8C /* Project object */;
+}
