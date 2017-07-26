@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhL-Nz-XxQ">
+                                <rect key="frame" x="16" y="28" width="288" height="30"/>
+                                <color key="backgroundColor" red="0.96216243550000002" green="1" blue="0.53601279150000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="创建一个文件">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createFileClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DCj-gt-5kq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1U-aB-nG0">
+                                <rect key="frame" x="16" y="66" width="288" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.40242569929999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="创建文件夹">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createDirectory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bxk-Md-ZYt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9T-vX-jPT">
+                                <rect key="frame" x="16" y="104" width="288" height="30"/>
+                                <color key="backgroundColor" red="0.69598257370000005" green="1" blue="0.77409706519999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="复制文件">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="copyFileClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ORH-il-19Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gF-1E-v1F">
+                                <rect key="frame" x="16" y="142" width="288" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.47004249980000001" blue="0.98084711260000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="剪切文件">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveFileClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XT9-nr-5bU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSb-2f-KkG">
+                                <rect key="frame" x="16" y="180" width="288" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.75631876689999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="删除文件">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteFileClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vA2-rN-ecl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYE-xe-u9r">
+                                <rect key="frame" x="16" y="218" width="288" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.67236243149999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="判断某个文件是否存在">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="isFileExist:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qky-dN-qxU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baY-cN-EI2">
+                                <rect key="frame" x="16" y="256" width="288" height="30"/>
+                                <color key="backgroundColor" red="0.49979725560278021" green="1" blue="0.60079355520375577" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="获取某个文件的属性">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fileAttributes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Od4-mv-8EA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="142"/>
+        </scene>
+    </scenes>
+</document>

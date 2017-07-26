@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C060AF4F1B82C11E00C2CD73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C060AF4E1B82C11E00C2CD73 /* main.m */; };
+		C060AF521B82C11E00C2CD73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C060AF511B82C11E00C2CD73 /* AppDelegate.m */; };
+		C060AF551B82C11E00C2CD73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C060AF541B82C11E00C2CD73 /* ViewController.m */; };
+		C060AF581B82C11E00C2CD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C060AF561B82C11E00C2CD73 /* Main.storyboard */; };
+		C060AF5A1B82C11E00C2CD73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C060AF591B82C11E00C2CD73 /* Images.xcassets */; };
+		C060AF5D1B82C11E00C2CD73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C060AF5B1B82C11E00C2CD73 /* LaunchScreen.xib */; };
+		C060AF691B82C11E00C2CD73 /* DoublePointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C060AF681B82C11E00C2CD73 /* DoublePointTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C060AF631B82C11E00C2CD73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C060AF411B82C11E00C2CD73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C060AF481B82C11E00C2CD73;
+			remoteInfo = DoublePoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C060AF491B82C11E00C2CD73 /* DoublePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoublePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C060AF4D1B82C11E00C2CD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C060AF4E1B82C11E00C2CD73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C060AF501B82C11E00C2CD73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C060AF511B82C11E00C2CD73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C060AF531B82C11E00C2CD73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C060AF541B82C11E00C2CD73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C060AF571B82C11E00C2CD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C060AF591B82C11E00C2CD73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C060AF5C1B82C11E00C2CD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C060AF621B82C11E00C2CD73 /* DoublePointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoublePointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C060AF671B82C11E00C2CD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C060AF681B82C11E00C2CD73 /* DoublePointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublePointTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C060AF461B82C11E00C2CD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C060AF5F1B82C11E00C2CD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C060AF401B82C11E00C2CD73 = {
+			isa = PBXGroup;
+			children = (
+				C060AF4B1B82C11E00C2CD73 /* DoublePoint */,
+				C060AF651B82C11E00C2CD73 /* DoublePointTests */,
+				C060AF4A1B82C11E00C2CD73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C060AF4A1B82C11E00C2CD73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C060AF491B82C11E00C2CD73 /* DoublePoint.app */,
+				C060AF621B82C11E00C2CD73 /* DoublePointTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C060AF4B1B82C11E00C2CD73 /* DoublePoint */ = {
+			isa = PBXGroup;
+			children = (
+				C060AF501B82C11E00C2CD73 /* AppDelegate.h */,
+				C060AF511B82C11E00C2CD73 /* AppDelegate.m */,
+				C060AF531B82C11E00C2CD73 /* ViewController.h */,
+				C060AF541B82C11E00C2CD73 /* ViewController.m */,
+				C060AF561B82C11E00C2CD73 /* Main.storyboard */,
+				C060AF591B82C11E00C2CD73 /* Images.xcassets */,
+				C060AF5B1B82C11E00C2CD73 /* LaunchScreen.xib */,
+				C060AF4C1B82C11E00C2CD73 /* Supporting Files */,
+			);
+			path = DoublePoint;
+			sourceTree = "<group>";
+		};
+		C060AF4C1B82C11E00C2CD73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C060AF4D1B82C11E00C2CD73 /* Info.plist */,
+				C060AF4E1B82C11E00C2CD73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C060AF651B82C11E00C2CD73 /* DoublePointTests */ = {
+			isa = PBXGroup;
+			children = (
+				C060AF681B82C11E00C2CD73 /* DoublePointTests.m */,
+				C060AF661B82C11E00C2CD73 /* Supporting Files */,
+			);
+			path = DoublePointTests;
+			sourceTree = "<group>";
+		};
+		C060AF661B82C11E00C2CD73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C060AF671B82C11E00C2CD73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C060AF481B82C11E00C2CD73 /* DoublePoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C060AF6C1B82C11E00C2CD73 /* Build configuration list for PBXNativeTarget "DoublePoint" */;
+			buildPhases = (
+				C060AF451B82C11E00C2CD73 /* Sources */,
+				C060AF461B82C11E00C2CD73 /* Frameworks */,
+				C060AF471B82C11E00C2CD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoublePoint;
+			productName = DoublePoint;
+			productReference = C060AF491B82C11E00C2CD73 /* DoublePoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C060AF611B82C11E00C2CD73 /* DoublePointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C060AF6F1B82C11E00C2CD73 /* Build configuration list for PBXNativeTarget "DoublePointTests" */;
+			buildPhases = (
+				C060AF5E1B82C11E00C2CD73 /* Sources */,
+				C060AF5F1B82C11E00C2CD73 /* Frameworks */,
+				C060AF601B82C11E00C2CD73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C060AF641B82C11E00C2CD73 /* PBXTargetDependency */,
+			);
+			name = DoublePointTests;
+			productName = DoublePointTests;
+			productReference = C060AF621B82C11E00C2CD73 /* DoublePointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C060AF411B82C11E00C2CD73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = sunhuayu;
+				TargetAttributes = {
+					C060AF481B82C11E00C2CD73 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C060AF611B82C11E00C2CD73 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C060AF481B82C11E00C2CD73;
+					};
+				};
+			};
+			buildConfigurationList = C060AF441B82C11E00C2CD73 /* Build configuration list for PBXProject "DoublePoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C060AF401B82C11E00C2CD73;
+			productRefGroup = C060AF4A1B82C11E00C2CD73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C060AF481B82C11E00C2CD73 /* DoublePoint */,
+				C060AF611B82C11E00C2CD73 /* DoublePointTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C060AF471B82C11E00C2CD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060AF581B82C11E00C2CD73 /* Main.storyboard in Resources */,
+				C060AF5D1B82C11E00C2CD73 /* LaunchScreen.xib in Resources */,
+				C060AF5A1B82C11E00C2CD73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C060AF601B82C11E00C2CD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C060AF451B82C11E00C2CD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060AF551B82C11E00C2CD73 /* ViewController.m in Sources */,
+				C060AF521B82C11E00C2CD73 /* AppDelegate.m in Sources */,
+				C060AF4F1B82C11E00C2CD73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C060AF5E1B82C11E00C2CD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060AF691B82C11E00C2CD73 /* DoublePointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C060AF641B82C11E00C2CD73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C060AF481B82C11E00C2CD73 /* DoublePoint */;
+			targetProxy = C060AF631B82C11E00C2CD73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C060AF561B82C11E00C2CD73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C060AF571B82C11E00C2CD73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C060AF5B1B82C11E00C2CD73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C060AF5C1B82C11E00C2CD73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C060AF6A1B82C11E00C2CD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C060AF6B1B82C11E00C2CD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C060AF6D1B82C11E00C2CD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = DoublePoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C060AF6E1B82C11E00C2CD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = DoublePoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C060AF701B82C11E00C2CD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoublePointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoublePoint.app/DoublePoint";
+			};
+			name = Debug;
+		};
+		C060AF711B82C11E00C2CD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoublePointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoublePoint.app/DoublePoint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C060AF441B82C11E00C2CD73 /* Build configuration list for PBXProject "DoublePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C060AF6A1B82C11E00C2CD73 /* Debug */,
+				C060AF6B1B82C11E00C2CD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C060AF6C1B82C11E00C2CD73 /* Build configuration list for PBXNativeTarget "DoublePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C060AF6D1B82C11E00C2CD73 /* Debug */,
+				C060AF6E1B82C11E00C2CD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C060AF6F1B82C11E00C2CD73 /* Build configuration list for PBXNativeTarget "DoublePointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C060AF701B82C11E00C2CD73 /* Debug */,
+				C060AF711B82C11E00C2CD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C060AF411B82C11E00C2CD73 /* Project object */;
+}
